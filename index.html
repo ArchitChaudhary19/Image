@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search app</title>
+    <link rel="icon" type="image/x-icon" href="faviconn.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Image Search App</h1>
+    <div class="theme-button">
+      <button class="theme">Dark</button>
+      <button class="theme2">Light</button>
+      <button class="theme3">Gray</button>
+      <button class="theme4">Pink</button>
+    </div>
+    <form action="">
+      <input type="text" id="search-input" placeholder="Search for images" />
+      <button id="search-button">Search</button>
+    </form>
+
+    <div class="search-results">
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1682695799561-033f55f75b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          alt="Mountains under the sky"
+        />
+        <a href="https://unsplash.com/photos/9bE0LlCrX2M" target="_blank">
+          Mountains under the sky</a
+        >
+      </div>
+
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1531837763904-5d3cb2632ea3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=430&q=80"
+          alt="Hopeful Robot"
+        />
+        <a href="https://unsplash.com/photos/HuE1cJo-x34" target="_blank">
+          Hopeful Robot</a
+        >
+      </div>
+
+      <div class="search-result" dd-theme="dark">
+        <img
+          src="https://images.unsplash.com/photo-1576201836106-db1758fd1c97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          alt="A cute dog"
+        />
+        <a href="https://unsplash.com/photos/73pyV0JJOmE" target="_blank">
+          A cute dog</a
+        >
+      </div>
+    </div>
+
+    <button id="show-more-button">Show more</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
